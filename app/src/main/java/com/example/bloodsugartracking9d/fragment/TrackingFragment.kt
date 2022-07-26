@@ -74,7 +74,7 @@ class TrackingFragment : Fragment(), View.OnClickListener {
 
             unit_selected = it
 
-            if (unit_selected == unit_mmol)  {
+            if (unit_selected == unit_mmol) {
 
                 CoroutineScope(Dispatchers.Main).launch {
 
