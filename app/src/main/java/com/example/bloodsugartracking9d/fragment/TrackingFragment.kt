@@ -80,7 +80,7 @@ class TrackingFragment : Fragment(), View.OnClickListener {
 
                     measurements.clear()
                     for (i in 1..600) {
-                        measurements.add(i)
+                      //  measurements.add(i)
                     }
                 }
 
