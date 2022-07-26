@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/tracking_fragment">
+
+    <fragment
+        android:id="@+id/tracking_fragment"
+        android:name="com.example.bloodsugartracking9d.fragment.TrackingFragment"
+        android:label="Add Measurement Resultt"
+        tools:layout="@layout/tracking_fragment">
+        <action
+            android:id="@+id/action_tracking_fragment_to_statistics_fragment"
+            app:destination="@id/statistics_fragment" />
+        <action
+            android:id="@+id/action_tracking_fragment_to_history_fragment2"
+            app:destination="@id/history_fragment" />
+        <action
+            android:id="@+id/action_tracking_fragment_to_detailFragment"
+            app:destination="@id/tipsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statistics_fragment"
+        android:name="com.example.bloodsugartracking9d.fragment.StatisticsFragment"
+        android:label="Statistics"
+        tools:layout="@layout/fragment_statistics"/>
+    <fragment
+        android:id="@+id/history_fragment"
+        android:name="com.example.bloodsugartracking9d.fragment.HistoryFragment"
+        android:label="Histpory"
+        tools:layout="@layout/fragment_history"/>
+
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.example.bloodsugartracking9d.fragment.TipsFragment"
+        android:label="Tips"
+        tools:layout="@layout/fragment_tips"/>
+</navigation>

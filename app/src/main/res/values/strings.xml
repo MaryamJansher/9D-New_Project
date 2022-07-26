@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BloodSugarTracking9D</string>
+
+    <string-array name="countries_array">
+        <item>First Wake Up</item>
+        <item>Before Meal</item>
+        <item>After Meal</item>
+        <item>2 Hours After Meal</item>
+        <item>At Bed</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+    </string-array>
+</resources>

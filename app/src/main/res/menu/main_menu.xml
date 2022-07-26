@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/tracking_fragment"
+        android:title="Tracking" />
+    <item
+        android:id="@+id/statistics_fragment"
+        android:title="Statics" />
+
+    <item
+        android:id="@+id/history_fragment"
+        android:title="History" />
+
+
+    <item
+        android:id="@+id/tipsFragment"
+        android:title="Tips" />
+
+    <item android:title="UnitS">
+
+        <menu>
+           <!-- <item
+                app:actionLayout="@layout/drawer_radio_buttons"
+                android:id="@+id/nav_radios"
+                android:title=""
+                />-->
+
+            <item
+                android:id="@+id/unit_mg"
+                android:title="mg/dL" />
+
+            <item
+                android:id="@+id/unit_mmol"
+                android:title="mmol/L" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!--old app data-->
+
+    <dimen name="space_half">4dp</dimen>
+    <dimen name="space">8dp</dimen>
+    <dimen name="space_x2">16dp</dimen>
+    <dimen name="space_x3">24dp</dimen>
+    <dimen name="space_x4">32dp</dimen>
+    <dimen name="space_x5">40dp</dimen>
+    <dimen name="space_x6">48dp</dimen>
+    <dimen name="min_card_height">600dp</dimen>
+    <dimen name="card_width">320dp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/space</dimen>
+    <dimen name="margin8">20dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="weather_day">85dp</dimen>
+    <dimen name="main_weather_font">60sp</dimen>
+
+    <dimen name="mid">18sp</dimen>
+
+    <dimen name="maptop2">125.0dip</dimen>
+    <dimen name="rightmap">9.0dip</dimen>
+    <dimen name="maptopl">125.0dip</dimen>
+    <dimen name="mappad">75dp</dimen>
+    <dimen name="sosmall">16.5sp</dimen>
+
+    <dimen name="popup_h">210dp</dimen>
+</resources>
