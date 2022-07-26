@@ -227,10 +227,10 @@ class TrackingFragment : Fragment(), View.OnClickListener {
             btn_cancel = dialogView.findViewById(R.id.btn_cancel)
 
             btnok.setOnClickListener {
-
-                val selectedId: Int = radio_group.getCheckedRadioButtonId()
+/*
+               // val selectedId: Int = radio_group.getCheckedRadioButtonId()
                 radio_button = radio_group.findViewById(selectedId) as RadioButton
-                trackingFragmentBinding.tvMeasurementtime.text = radio_button.text.toString()
+                trackingFragmentBinding.tvMeasurementtime.text = radio_button.text.toString()*/
 
                 dialogBuilder.dismiss()
             }
